@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: amazon-bedrock-rag
+  ai:
+    bedrock:
+      aws:
+        region: us-east-1
+        access-key:
+        secret-key:
+        session-token:
+      converse:
+        chat:
+          options:
+            max-tokens: 500
+            model: us.amazon.nova-2-lite-v1:0
